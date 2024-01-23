@@ -24,46 +24,89 @@
 
     <!-- custom tailwind classes -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'hockeys-primary': '#FF4240',
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "hockeys-rose": "#FF4240",
+              "hockeys-dark-1": "#131318",
+              "hockeys-dark-2": "#424247",
+              "hockeys-gray": "#13131899",
+            },
+          },
+        },
+      };
+    </script>
 
     <!-- customs styles -->
     <style>
-        body {
-            font-family: 'Manrope', sans-serif;
-        }
+      body {
+        font-family: "Manrope", sans-serif;
+      }
     </style>
-
-
   </head>
   <body>
-
-
     <!-- header section -->
-    <header>
-        <nav>
-        </nav>
+    <header class="container mx-auto my-12">
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+              <li><a class="font-bold text-base text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Home</a></li>
+              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">About</a></li>
+              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Pages</a></li>
+              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Blog</a></li>
+              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Contact</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-4xl font-extrabold text-hockeys-dark-1">Hockey<span class="text-hockeys-rose">’</span>s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="font-bold text-base text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Home</a></li>
+              <li><a class="font-bold text-base text-hockeys-dark-2 hover:bg-hockeys-rose hover:text-white">About</a></li>
+              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Pages</a></li>
+              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Blog</a></li>
+              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a href=""><img class="pr-6" src="./Images/search.svg" alt=""></a>
+            <a class="btn text-xl font-bold text-white bg-hockeys-rose hover:bg-hockeys-dark-2">Get Ticket</a>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- main section -->
     <main>
-        <section></section>
+      <section></section>
     </main>
 
     <!-- footer section -->
     <footer>
-        <section></section>
+      <section></section>
     </footer>
-
-    
   </body>
 </html>
