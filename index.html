@@ -73,30 +73,148 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-              <li><a class="font-bold text-base text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Home</a></li>
-              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">About</a></li>
-              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Pages</a></li>
-              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Blog</a></li>
-              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Contact</a></li>
+                <li>
+                  <a
+                    class="font-bold text-base text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                    >Pages</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                    >Contact</a
+                  >
+                </li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-4xl font-extrabold text-hockeys-dark-1">Hockey<span class="text-hockeys-rose">’</span>s</a>
+            <a class="btn btn-ghost text-4xl font-extrabold text-hockeys-dark-1"
+              >Hockey<span class="text-hockeys-rose">’</span>s</a
+            >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><a class="font-bold text-base text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Home</a></li>
-              <li><a class="font-bold text-base text-hockeys-dark-2 hover:bg-hockeys-rose hover:text-white">About</a></li>
-              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Pages</a></li>
-              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Blog</a></li>
-              <li><a class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white">Contact</a></li>
+              <li>
+                <a
+                  class="font-bold text-base text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-bold text-base text-hockeys-dark-2 hover:bg-hockeys-rose hover:text-white"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                  >Pages</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="font-bold text-base text-hockeys-dark-2 hover:text-hockeys-rose hover:bg-hockeys-rose hover:text-white"
+                  >Contact</a
+                >
+              </li>
             </ul>
           </div>
           <div class="navbar-end">
-            <a href=""><img class="pr-6" src="./Images/search.svg" alt=""></a>
-            <a class="btn text-xl font-bold text-white bg-hockeys-rose hover:bg-hockeys-dark-2">Get Ticket</a>
+            <a href=""><img class="pr-6 hidden lg:flex" src="./Images/search.svg" alt="" /></a>
+            <a
+              class="btn text-xl font-bold text-white bg-hockeys-rose hover:bg-hockeys-dark-2"
+              >Get Ticket</a
+            >
           </div>
         </div>
       </nav>
+
+      <!-- carousel or slider -->
+      <div class="carousel w-full h-[200px] lg:h-[550px] mx-auto mt-12">
+        <div
+          id="slide1"
+          class="carousel-item relative w-full rounded-xl lg:rounded-2xl bg-[url('./images/1.png')] bg-cover"
+        >
+          <div class="lg:absolute flex items-end mx-auto gap-4 mb-4 lg:mb-6 left-5 bottom-4 lg:bottom-5">
+            <a
+              href="#slide4"
+              class="btn bg-hockeys-dark-1 text-white btn-circle"
+              >❮</a
+            >
+            <a
+              href="#slide2"
+              class="btn bg-hockeys-dark-1 text-white btn-circle"
+              >❯</a
+            >
+          </div>
+        </div>
+        
+        <div id="slide2" class="carousel-item relative w-full rounded-xl lg:rounded-2xl bg-[url('./images/2.png')] bg-cover">
+          <div
+            class="lg:absolute flex items-end mx-auto gap-4 mb-4 lg:mb-6 left-5 bottom-4 lg:bottom-5"
+          >
+            <a href="#slide1" class="btn bg-hockeys-dark-1 text-white btn-circle">❮</a>
+            <a href="#slide3" class="btn bg-hockeys-dark-1 text-white btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full rounded-xl lg:rounded-2xl bg-[url('./images/3.png')] bg-cover">
+          <div
+            class="lg:absolute flex items-end mx-auto gap-4 mb-4 lg:mb-6 left-5 bottom-4 lg:bottom-5"
+          >
+            <a href="#slide2" class="btn bg-hockeys-dark-1 text-white btn-circle">❮</a>
+            <a href="#slide4" class="btn bg-hockeys-dark-1 text-white btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full rounded-xl lg:rounded-2xl bg-[url('./images/4.png')] bg-cover">
+          <div
+            class="lg:absolute flex items-end mx-auto gap-4 mb-4 lg:mb-6 left-5 bottom-4 lg:bottom-5"
+          >
+            <a href="#slide3" class="btn bg-hockeys-dark-1 text-white btn-circle">❮</a>
+            <a href="#slide1" class="btn bg-hockeys-dark-1 text-white btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- slider card -->
+      <div
+        class="mx-auto mt-4 lg:absolute lg:right-5 lg:-translate-y-52 bg-hockeys-dark-1 p-4 lg:p-8 rounded-xl lg:rounded-2xl"
+      >
+        <div class="inline-flex flex-col gap-2 lg:gap-4">
+          <h2 class="text-white font-extrabold text-lg lg:text-2xl">
+            Meet all the heroes from the field
+          </h2>
+          <p class="text-white font-medium text-sm lg:text-base w-[350px] lg:w-[502px]">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+      </div>
+
+
     </header>
 
     <!-- main section -->
